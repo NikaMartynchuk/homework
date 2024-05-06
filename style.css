@@ -98,18 +98,7 @@
 }
 
 .main-button {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.5;
-  letter-spacing: 0.05cm;
-  text-align: center;
-  background-color: #2196f3;
-  color: white;
-  border: 0px;
-  border-radius: 10px 10px;
-  display: block;
-  margin: 20px auto 20px;
-  padding: 10px 32px;
+ 
 }
 
 .button-10:focus {
@@ -427,22 +416,93 @@ background-color: #21212189;
   background-color: #21212189;
     }
     
-    .bck-text{
-      margin: 0 auto;
+    .btn {
+      background-color: wheat;
+      border: 0;
+      font-size: 20px;
+      padding: 20px 30px;
+  }
+  
+  .backdrop {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      opacity: 1;
+  }
+  .backdrop.is-hidden {
+      opacity: 0;
+      pointer-events: none;
+  }
+  .no-scroll {
+      overflow: hidden;
+  }
+  .modal {
       position: absolute;
-      top: 1485px;
-      font-family: 'Roboto';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 14px;
-      width: 370px;
-      line-height: 16.41px;
-      text-align: center;
-      padding-top: 27px;
-      padding-bottom: 27px;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      color: #FFFFFF;
-      background-color: #21212189;
-        }
-        
+      top: 50%;
+      left: 50%;
+      min-width: 528px;
+      min-height: 581px;
+      padding: 15px;
+      background-color: white;  
+      transform: translate(-50%, -50%);
+      border-radius: 5px 5px;
+  }
+
+  .dt{
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .icon{
+    font-size: 20px;
+    color:rgba(175, 177, 184, 1);
+    margin-bottom: 44px;
+  }
+
+  .icon:hover{
+    width: 44px;
+    height: 44px;
+    color:white;
+background-color: #2196F3;
+background-size: 1000px;
+border-radius: 22px 22px;
+  }
+
+.namee{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+letter-spacing: 0.01em;
+color: #757575;
+}
+
+
+  .btn {
+    background-color: wheat;
+    border: 0;
+    font-size: 20px;
+    padding: 20px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.05cm;
+    text-align: center;
+    background-color: #2196f3;
+    color: white;
+    border: 0px;
+    border-radius: 10px 10px;
+    display: block;
+    margin: 20px auto 20px;
+    padding: 10px 32px;
+}
+
+.btn{
+  cursor: pointer;
+}
