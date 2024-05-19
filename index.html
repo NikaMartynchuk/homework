@@ -54,14 +54,35 @@
             <h1 class="main-h1">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
             <button class="btn btn-open" type="button" data-modal-open>Замовити послугу</button>
             <div class="backdrop is-hidden" data-modal>
-              <div class="modal">
-
-                <p class="dt" data-modal-close>Залиште свої дані, ми вам передзвонимо</p>
-                <p class="namee">ім'я</p>
-                <button class="btn" data-modal-close>Закрити</button>
-              </div>
-            </div>
-        </div>
+              <!-- Модальне вікно з бекдропом -->
+    <div class="backdrop-is-hidden" data-modal>
+      <div class="modal">
+          <button type="button" class="close-btn" data-modal-close>&times;</button>
+          <form>
+              <label>
+                  Ім'я
+                  <input type="text" name="name">
+              </label>
+              <label>
+                  Телефон
+                  <input type="tel" name="phone">
+              </label>
+              <label>
+                  Пошта
+                  <input type="email" name="email">
+              </label>
+              <label>
+                  Коментар
+                  <textarea name="comment"></textarea>
+              </label>
+              <label>
+                  <input type="checkbox" name="agreement">
+                  Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a>
+              </label>
+              <button type="submit">Відправити</button>
+          </form>
+      </div>
+  </div>
       </div>
     </section>
     <!---section 2-->
@@ -196,5 +217,4 @@
     </section>
   </footer>
 </body>
-
 </html>
