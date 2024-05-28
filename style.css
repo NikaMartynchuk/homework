@@ -227,10 +227,17 @@
 
 }
 
+.f00te-p{
+  color: white;
+  display: flex;
+  font-size: 14px;
+}
+
 .foote-p{
 color: #FFFFFF;
 margin-bottom: 30px;
 }
+
 #three::before {
   content: '';
   width: 100%;
@@ -278,8 +285,14 @@ margin-bottom: 30px;
 
 
 
-.container {
+.container :nth-last-child(){
   width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container:last-child{
+  width: 1270px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -410,10 +423,7 @@ background-color: #21212189;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  visibility: hidden;
   opacity: 0;
-  pointer-events: none;
-  transition: visibility 0s, opacity 0.25s ease-in-out;
 }
 
 
@@ -423,13 +433,16 @@ background-color: #21212189;
   pointer-events: none;
 }
 
+.int{
+  color: #454545;
+}
+
 .modal {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #fff;
-  padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -444,20 +457,161 @@ background-color: #21212189;
   cursor: pointer;
 }
 
+
+.rr{
+position: absolute;
+bottom: 461px;
+left: 40px;
+}
+
+
+.subscription-container {
+  text-align: center;
+}
+
+.subscription-form {
+  margin-left: 93px;
+  margin-top: 10px;
+}
+
+.subscription-form label {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.input-group input {
+  background-color: rgb(38, 38, 38);
+  padding: 10px;
+  border: solid #616161 4px;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 16px;
+  width: 358px;
+Height: 30px;
+}
+
+
+.footer-div{
+  width: 370px;
+}
+
+.y{
+  position: absolute;
+  left: 1719px;
+  top: 3109px;
+}
+
+.input-group button {
+  border: none;
+  border-radius:  5px 5px ;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.u{
+  display: flex;
+  color: white;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+.input-group input:focus, .input-group button:focus {
+  outline: none;
+}
+
+.b{
+  color: grey;
+  position: absolute;
+}
+
+.r{
+  position: absolute;
+  top: 176px;
+  left: 44px;
+  }
+
+
+.t{
+  position: absolute;
+  top: 252px;
+  left: 45px;
+  }
+
+.submit{
+  margin-bottom: 20px;
+}
+
+.ij{
+  margin-top: 40px;
+  font-family: 'Roboto';
+font-style: normal;
+font-size: 20px;
+font-weight: 600;
+color: black;
+}
+
+.iit{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+color: #757575;
+padding-top: 10px;
+}
+
+.int{
+  background-image: url(svg/icomoon/demo-files/);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+color: #757575;
+display: flex;
+padding-left: 30px;
+padding-top: 10px;
+padding-bottom: 1px;
+}
+
+.pad{
+  color: #007bff;
+}
+
+#ig{
+  width: 20px;
+}
+
 form label {
   display: block;
   margin-bottom: 10px;
 }
 
+
+.form input, form textarea:last-child {
+height: 120px;
+}
 form input, form textarea {
-  width: 100%;
+  width: 448px;
   padding: 8px;
   margin-top: 5px;
 }
 
 form button[type="submit"] {
-  margin-top: 15px;
-  padding: 10px 20px;
+  margin-left: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 68px;
+  padding-left: 48px;
   background-color: #007bff;
   color: #fff;
   border: none;
@@ -470,8 +624,11 @@ form input:hover, form textarea:hover, form button[type="submit"]:hover {
 
 form button[type="submit"]:hover {
   background-color: #0056b3;
+
 }
 
+form button[type="submit"]{
+}
 
   .svg-icons{
     margin: 0 auto;
@@ -505,6 +662,7 @@ width: 145px;
   }
 
   .icon-div{
+    width: 400px;
     margin-left: 105px;
     margin-top: 10px;
   }
@@ -582,12 +740,10 @@ font-size: 1;
       overflow: hidden;
   }
   .modal {
-      position: absolute;
+    width: 528px ;
+      position: fixed;
       top: 50%;
       left: 50%;
-      min-width: 528px;
-      min-height: 581px;
-      padding: 15px;
       background-color: white;  
       transform: translate(-50%, -50%);
       border-radius: 5px 5px;

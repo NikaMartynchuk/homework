@@ -53,36 +53,37 @@
             </svg>
             <h1 class="main-h1">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
             <button class="btn btn-open" type="button" data-modal-open>Замовити послугу</button>
-            <div class="backdrop is-hidden" data-modal>
-              <!-- Модальне вікно з бекдропом -->
-    <div class="backdrop-is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
           <button type="button" class="close-btn" data-modal-close>&times;</button>
+          <h1 class="ij">Залиште свої дані, ми вам передзвонимо</h1>
           <form>
+            <a  class="int">Ім'я</a> 
               <label>
-                  Ім'я
+                <img  class="rr" src="photos/person-black-18dp 1.svg">
                   <input type="text" name="name">
               </label>
+              <a  class="int">Телефон</a> 
               <label>
-                  Телефон
+                <img  class="r" src="photos/Vector (1).svg">
                   <input type="tel" name="phone">
               </label>
+              <a  class="int">Пошта</a> 
               <label>
-                  Пошта
+                <img  class="t" src="photos/Vector (2).svg">
                   <input type="email" name="email">
               </label>
+              <a  class="int">Коментар</a> 
               <label>
-                  Коментар
-                  <textarea name="comment"></textarea>
+                  <textarea name="comment" placeholder="Введіть текст"></textarea>
               </label>
-              <label>
-                  <input type="checkbox" name="agreement">
-                  Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a>
+              <label  class="iit">
+                  <input id="ig" type="checkbox" name="agreement">
+                  Погоджуюся з розсилкою та приймаю <a href="#" class="pad">Умови договору</a>
               </label>
               <button type="submit">Відправити</button>
           </form>
       </div>
-  </div>
       </div>
     </section>
     <!---section 2-->
@@ -192,8 +193,6 @@
         </div>
       </div>
     </section>
-    <script src="js/main.js"></script>
-
   </main>
   <footer class="footer">
     <section class="section">
@@ -212,9 +211,20 @@
           <span class="icon-facebook ico"></span>
           <span class="icon-linkedin ico"></span>
         </div>
+        <div class="subscription-container">
+          <form class="subscription-form">
+              <label class="f00te-p" for="email">Підпишіться на розсилку</label>
+              <div class="input-group">
+                  <input type="email" id="email" name="email" placeholder="E-mail" required>
+                  <button type="submit">Підписатися</button>
+                  <img class="y" src="photos/icon send.svg">
+              </div>
+          </form>
+      </div>
         </div>
       </div>
     </section>
   </footer>
+  <script src="js/main.js"></script>
 </body>
 </html>
