@@ -596,6 +596,50 @@ padding-bottom: 1px;
   color: #007bff;
 }
 
+
+.rrt{
+  color: black;
+  font-size: 19px;
+  position: absolute;
+left: 35px;
+top: 94px;
+}
+
+.qq:active .rrt{
+  color: #2196F3;
+}
+
+.rrt:hover{
+  color: #2196F3;
+}
+.rt:hover{
+  color: #2196F3;
+}
+
+.rtt:hover{
+  color: #2196F3;
+}
+
+.q:active{
+color: #2196f3;
+}
+
+
+.rtt{
+  color: black;
+  font-size: 15px;
+  position: absolute;
+left: 37px;
+top: 170px;
+}
+.rt{
+  color: black;
+  font-size: 12px;
+  position: absolute;
+left: 37px;
+top: 242px;
+}
+
 #ig{
   width: 20px;
 }
@@ -610,8 +654,10 @@ form label {
 height: 120px;
 }
 form input, form textarea {
-  width: 448px;
+  width: 468px;
   padding: 8px;
+  box-sizing: border-box ;
+  padding-left: 22px;
 }
 
 

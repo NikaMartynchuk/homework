@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="icons/style.css">
+    <link rel="stylesheet" href="icon/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   </head>
 
@@ -61,22 +62,29 @@
       <div class="modal">
           <button type="button" class="close-btn" data-modal-close>&times;</button>
           <h1 class="ij">Залиште свої дані, ми вам передзвонимо</h1>
+          
           <form>
             <a  class="int">Ім'я</a> 
-              <label>
-                <img  class="rr" src="photos/person-black-18dp 1.svg">
-                  <input type="text" name="name">
+            <div   class="q">
+              <label class="qq">
+                <span class="icon-person-black-18dp-1 rrt"> </span>
+                 <input type="text" name="name">
               </label>
-              <a  class="int">Телефон</a> 
+            </div>
+              <a  class="int">Телефон</a>
+              <div   class="q"> 
               <label>
-                <img  class="r" src="photos/Vector (1).svg">
+                <span class="icon-Vector-1 rtt"> </span>
                   <input type="tel" name="phone">
               </label>
+            </div>
               <a  class="int">Пошта</a> 
+              <div   class="q">
               <label>
-                <img  class="t" src="photos/Vector (2).svg">
-                  <input type="email" name="email">
+                <span class="icon-Vector-2 rt"> </span>
+                <input type="email" name="email">
               </label>
+            </div>
               <a  class="int">Коментар</a> 
               <label>
                   <textarea name="comment" placeholder="Введіть текст"></textarea>
