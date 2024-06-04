@@ -479,6 +479,7 @@ left: 40px;
   font-size: 14px;
 }
 
+
 .input-group {
   display: flex;
   justify-content: center;
@@ -492,7 +493,7 @@ left: 40px;
   border-radius: 5px 5px 5px 5px;
   font-size: 16px;
   width: 358px;
-Height: 30px;
+Height: 53px;
 }
 
 
@@ -692,6 +693,17 @@ form button[type="submit"] {
   border-radius: 5px 5px;
 }
 
+.q:focus-within .rrt { 
+  color:#2196F3;
+ }
+
+ .q:focus-within .rt { 
+  color:#2196F3;
+ }
+
+ .q:focus-within .rtt { 
+  color:#2196F3;
+ }
 
 
 form button[type="submit"]:hover {
