@@ -596,6 +596,22 @@ padding-bottom: 1px;
   color: #007bff;
 }
 
+input[type=tel]:focus {
+  border: 3px solid #2196F3;
+}
+input[type=text]:focus {
+  border: 3px solid #2196F3;
+}
+
+
+input[type=email]:focus {
+  border: 3px solid #2196F3;
+
+}
+
+.rrt:focus{
+  color: #2196F3;
+}
 
 .rrt{
   color: black;
