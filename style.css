@@ -597,16 +597,21 @@ padding-bottom: 1px;
 }
 
 input[type=tel]:focus {
-  border: 3px solid #2196F3;
+  border: 2px solid #2196F3;
+  border-radius: 2px;
+  outline-width: 0;
 }
 input[type=text]:focus {
-  border: 3px solid #2196F3;
+  border: 2px solid #2196F3;
+  border-radius: 2px;
+  outline-width: 0;
 }
 
 
 input[type=email]:focus {
-  border: 3px solid #2196F3;
-
+  border: 2px solid #2196F3;
+  border-radius: 2px;
+  outline-width: 0;
 }
 
 .rrt:focus{
@@ -621,24 +626,7 @@ left: 35px;
 top: 94px;
 }
 
-.qq:active .rrt{
-  color: #2196F3;
-}
 
-.rrt:hover{
-  color: #2196F3;
-}
-.rt:hover{
-  color: #2196F3;
-}
-
-.rtt:hover{
-  color: #2196F3;
-}
-
-.q:active{
-color: #2196f3;
-}
 
 
 .rtt{
@@ -704,9 +692,7 @@ form button[type="submit"] {
   border-radius: 5px 5px;
 }
 
-form input:hover, form textarea:hover, form button[type="submit"]:hover {
-  border-color: #007bff;
-}
+
 
 form button[type="submit"]:hover {
   background-color: #0056b3;
