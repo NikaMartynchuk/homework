@@ -3,6 +3,38 @@
 }
 
 
+
+a.header-tel {
+  transition: color 250ms  ease;
+}
+
+a.header-a1 {
+  transition: color 250ms ease;
+}
+
+a.xc{
+  transition: background-color 250s ease;
+}
+
+span.smm{
+    transition: color 250ms ease;
+  }
+
+  span.sm{
+    transition: color 250ms ease;
+  }
+
+  span.icon{
+    transition: color 250ms ease, background-color ;
+  }
+
+  
+  span.ico{
+    transition: color 250ms ease;
+  }
+
+
+
 .main {
   font-family: 'Roboto', sans-serif;
 }
@@ -396,7 +428,7 @@ element.style {
 .back-text {
   margin: 0 auto;
   position: absolute;
-  top: 1485px;
+  top: 1455px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -807,7 +839,7 @@ form button[type="submit"] {}
 .bac-text {
   margin: 0 auto;
   position: absolute;
-  top: 1485px;
+  top: 1455px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
