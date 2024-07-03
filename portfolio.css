@@ -376,6 +376,7 @@
 
 .w{
   display: flex;
+  justify-content: center;
 }
 .container1 {
   padding-top: 94px;
@@ -383,6 +384,7 @@
 
 .ccntainer{
 margin-left: 215px;
+margin: 0 auto;
 }
 
 .container {
@@ -424,7 +426,9 @@ margin-left: 215px;
 }
 
 button.main-button{
-  transition: color 250ms  ease;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: ease;
 }
 
 button.card-overlay-desc{
