@@ -5,32 +5,32 @@
 
 
 a.header-tel {
-  transition: color 250ms  ease;
+  transition: color 250ms  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 a.header-a1 {
-  transition: color 250ms ease;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 a.xc{
-  transition: background-color 250s ease;
+  transition: background-color 250s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 span.smm{
-    transition: color 250ms ease;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   span.sm{
-    transition: color 250ms ease;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   span.icon{
-    transition: color 250ms ease, background-color ;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color ;
   }
 
   
   span.ico{
-    transition: color 250ms ease;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
 
@@ -474,6 +474,7 @@ element.style {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-btn {
@@ -527,7 +528,11 @@ element.style {
   width: 100%;
   height: 4px;
   background-color: #44acff;
-}
+  transform: scaleX(0);
+  transition: 
+  transform: 500ms cubic-bezier(0.83, -0.08, 0.32, 1) 1000ms,
+    opacity 500ms cubic-bezier(0.83, -0.08, 0.32, 1) 1000ms;
+hj}
 
 .input-group {
   display: flex;
@@ -797,6 +802,16 @@ form button[type="submit"] {}
 
 .WEB {
   width: 145px;
+}
+
+.foote-p {
+  color: #FFFFFF;
+  margin-bottom: 30px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
 }
 
 .icon-div {

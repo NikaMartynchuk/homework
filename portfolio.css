@@ -30,7 +30,7 @@
   aspect-ratio: 3 / 4;
   object-fit: cover;
   display: block;
-  transition: transform 0.5s ease;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-overlay {
@@ -47,13 +47,13 @@
   color: white;
   font-family: sans-serif;
   opacity: 0;
-  transition: opacity 0.5s ease;
+  transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
 .card-overlay:hover {
   opacity: 2;
-  transition: opacity 0.5s ease;
+  transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-overlay-title {
@@ -116,7 +116,7 @@ margin-top: 29px;
 
 .card:hover .card-img {
   transform: scale(1.2);
-  transition: transform 0.5s ease;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main {
@@ -394,7 +394,7 @@ margin-top: 29px;
 
 
 .footer-p {
-  padding-top: 20px;
+  padding-left: 15px;
   font-weight: 400;
   font-size: 14px;
   color: white;
@@ -422,6 +422,7 @@ margin: 0 auto;
 
 
 .foter-p {
+  padding-left: 15px;
   font-weight: 400;
   font-size: 14px;
   color: #bcbcbc;
@@ -453,27 +454,37 @@ margin: 0 auto;
 }
 
 button.main-button{
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: eas;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 button.card-overlay-desc{
-  transition: color 250ms  ease;
+  transition: color 250ms  cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+div.section-two-content{
+  transition: box-shadow 250ms  cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 a.header-a{
-  transition: color 250ms  ease;
+  transition: color 250ms  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 a.header-tel{
-  transition: color 250ms  ease;
+  transition: color 250ms  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 a.header-tel1{
-  transition: color 250ms  ease;
+  transition: color 250ms  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.WEB {
+  width: 145px;
+}
+
+span.ico{
+  transition: background-color 250ms  cubic-bezier(0.4, 0, 0.2, 1), color 250ms  cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .o {
   color: #44acff;
@@ -506,7 +517,9 @@ a.header-tel1{
 
 .icon-div {
   margin-left: 105px;
+  margin-top: 10px;
 }
+
 
 .ico {
   font-size: 20px;
@@ -522,13 +535,28 @@ a.header-tel1{
   background-color: #2196F3;
 }
 
+
+form input,
+form textarea {
+  width: 468px;
+  padding: 8px;
+  box-sizing: border-box;
+  padding-left: 22px;
+}
+
 .foote-p {
   color: #FFFFFF;
   margin-bottom: 30px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
 }
 
 .subscription-container {
   text-align: center;
+  margin-top: 10px;
 }
 
 .subscription-form {
@@ -540,6 +568,10 @@ a.header-tel1{
 }
 
 .f00te-p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
   color: white;
   display: flex;
 }

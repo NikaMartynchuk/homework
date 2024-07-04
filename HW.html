@@ -3,22 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hover Sidebar Menu</title>
+    <title>WebStudio Modal</title>
     <link rel="stylesheet" href="HW.css">
     <link rel="stylesheet" href="HW.js">
-    <link rel="stylesheet" href="photos">
 
 </head>
 <body>
-    <div class="card">
-        <img class="main-img" src="photos/img (5).jpg" width="370" height="294">       
-         <div class="overlay">
-            <p>Ресурс пропонує комплексні пропозиції з різним рівнем
-                функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
-                компанію чи приватну особу.</p>
+    <button id="openModalBtn">Відкрити модальне вікно</button>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Це модальне вікно WebStudio</p>
         </div>
     </div>
-    
-    
+
+    <script src="script.js"></script>
 </body>
 </html>
