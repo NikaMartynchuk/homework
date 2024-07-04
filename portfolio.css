@@ -535,6 +535,9 @@ span.ico{
   background-color: #2196F3;
 }
 
+input{
+  color: #fff;
+}
 
 form input,
 form textarea {
