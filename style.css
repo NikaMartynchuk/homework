@@ -16,7 +16,7 @@ a.xc{
   transition: background-color 250s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-span.smm{
+span.ic{
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
@@ -236,7 +236,7 @@ span.smm{
 #one::before {
   content: '';
   width: 100%;
-  height: 100px;
+  height: 120px;
   background-image: url('photos/group1.jpg');
   background-repeat: no-repeat;
   display: block;
@@ -245,7 +245,7 @@ span.smm{
 #two::before {
   content: '';
   width: 100%;
-  height: 100px;
+  height: 120px;
   background-image: url('photos/group2.jpg');
   background-repeat: no-repeat;
   display: block;
@@ -267,7 +267,7 @@ span.smm{
 #three::before {
   content: '';
   width: 100%;
-  height: 100px;
+  height: 120px;
   background-image: url('photos/group3.jpg');
   background-repeat: no-repeat;
   display: block;
@@ -276,7 +276,7 @@ span.smm{
 #four::before {
   content: '';
   width: 100%;
-  height: 100px;
+  height: 120px;
   background-image: url('photos/group4.jpg');
   background-repeat: no-repeat;
   display: block;
@@ -425,7 +425,7 @@ element.style {
 .back-text {
   margin: 0 auto;
   position: absolute;
-  top: 1455px;
+  top: 1475px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -441,6 +441,10 @@ element.style {
   background-color: #21212189;
 }
 
+input{
+  color: #fff;
+}
+
 /* Стилі бекдропу */
 .backdrop {
   position: fixed;
@@ -450,6 +454,7 @@ element.style {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -463,6 +468,8 @@ element.style {
   color: #454545;
 }
 
+ 
+
 .modal {
   position: fixed;
   top: 50%;
@@ -471,7 +478,6 @@ element.style {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-btn {
@@ -518,9 +524,12 @@ element.style {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
+a.xc::after{
+  transition: background-color 250ms transform ease;
+}
 
 
-.xc::after {
+.xc:hover:after {
   content: "";
   position: absolute;
   left: 0;
@@ -851,7 +860,7 @@ form button[type="submit"] {}
 .bac-text {
   margin: 0 auto;
   position: absolute;
-  top: 1455px;
+  top: 1475px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
