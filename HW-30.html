@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анімація квадрата</title>
+    <style>
+        .square {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            position: absolute;
+            animation: moveSquare 2s infinite, colorChange 2s infinite;
+            display: flex;
+            align-items: center;
+
+        }
+
+        @keyframes moveSquare {
+            0% { right: 0; top: 0; }
+            25% { right: 100px; top: 0; }
+            50% { right: 100px; top: 100px; }
+            75% { right: 0; top: 100px; }
+            100% { right: 0; top: 0; }
+        }
+
+        @keyframes colorChange {
+            0% { background-color: blue; }
+            25% { background-color: green; }
+            50% { background-color: yellow; }
+            75% { background-color: red; }
+            100% { background-color: blue; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="square"></div>
+</div>
+</body>
+</html>
