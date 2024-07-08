@@ -215,6 +215,21 @@ margin-top: 29px;
   margin-right: 20px;
   padding: 10px 32px;
   justify-content: center;
+  animation: myAnim 2s ease 0s 10000 normal forwards;
+}
+
+@keyframes myAnim{
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
 }
 
 .section-three {
@@ -281,6 +296,13 @@ margin-top: 29px;
   padding: 50px 0;
 }
 
+.n{
+  animation: anim 2s ease 0s 1 normal forwards;
+}
+
+.o{
+  animation: anim 2s ease 0s 1 normal forwards;
+}
 
 
 .header-navigation {
@@ -536,6 +558,11 @@ span.ico{
   border-radius: 50%;
   background-color: #454545;
 }
+
+.ico:hover{
+cursor: pointer;
+}
+
 .icon-envelope1{
   margin-left: 87px;
 }
@@ -556,7 +583,21 @@ span.ico{
 .ic {
   display: flex;
   align-items: center;
+  animation: anim 2s ease 0s 1 normal forwards;
 }
+
+@keyframes anim {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
 
 .ic span, .ic a {
   color: black; 
@@ -677,6 +718,7 @@ form button[type="submit-one"] {
   background-color: #007bff;
   color: #fff;
   border: none;
+  animation: myAnim 2s ease 0s 10000 normal forwards;
 }
 
 .y {

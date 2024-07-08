@@ -82,6 +82,7 @@ span.ic{
   font-size: 14px;
   line-height: 61.41%;
   font-weight: 700;
+  animation: anim 2s ease 0s 1 normal forwards;
 }
 
 .main-h5 {
@@ -124,6 +125,7 @@ span.ic{
   text-align: center;
   line-height: 136%;
   margin-bottom: 50px;
+  animation: anim 2s ease 0s 1 normal forwards;
 }
 
 .main-h3 {
@@ -157,7 +159,6 @@ span.ic{
 
 .header-a1 {
   animation: anim 2s ease 0s 1 normal forwards;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -369,6 +370,7 @@ span.ic{
   font-size: 16px;
   font-weight: 400;
   color: #757575;
+  animation: anim 2s ease 0s 1 normal forwards;
 }
 
 element.style {
@@ -473,6 +475,7 @@ input{
 
 .ic {
   display: flex;
+  animation: anim 2s ease 0s 1 normal forwards;
   align-items: center;
 }
 
@@ -799,6 +802,7 @@ form button[type="submit-one"] {
   background-color: #007bff;
   color: #fff;
   border: none;
+  animation: myAnim 2s ease 0s 10000 normal forwards;
 }
 
 form button[type="submit"] {
@@ -1038,7 +1042,7 @@ form button[type="submit"] {}
 
 
 .btn {
-  animation: myAnim 2s ease 0s 100 normal forwards;
+  animation: myAnim 2s ease 0s 1000 normal forwards;
   background-color: wheat;
   border: 0;
   font-size: 20px;
